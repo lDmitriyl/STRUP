@@ -14,7 +14,7 @@ function strup($data)
 
             $color =  randomColor($data, $data[$key]);
 
-            $res .= '<p style="color:' . $color. '; display: inline-block">' . $data[$key] . '</p>' . " ";
+            $res .= '<p style="color:' . $color. '; display: inline-block; font-size: 30px">' . $data[$key] . '</p>' . " ";
 
         }
         $res .= '<br>';
